@@ -19,11 +19,28 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/responsive.css',
+        'css/jasny-bootstrap.min.css',
+        'fonts/font-awesome/font-awesome.min.css',
+        'extras/animate.css',
+        'extras/lightbox.css',
+        'extras/owl/owl.carousel.css',
+        'extras/owl/owl.theme.css',
+        'extras/owl/owl.transitions.css',
     ];
     public $js = [
+        'js/wow.js',
+        'js/main.js',
+        'js/smooth-scroll.js',
+        'js/jasny-bootstrap.min.js',
+        'js/jquery.counterup.min.js',
+        'js/waypoints.min.js',
+        'js/circle-progress.js',
+        'js/owl.carousel.js',
+        'js/lightbox.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'app\assets\BootstrapAsset',
     ];
 }
