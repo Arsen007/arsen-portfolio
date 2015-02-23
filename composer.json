@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-app-basic": "2.0.2",
+    "yiisoft/yii2-debug": "2.0.2",
+    "yiisoft/yii2-gii": "2.0.2"
+  }
+}
