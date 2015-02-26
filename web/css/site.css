@@ -754,3 +754,6 @@ img {
         width: 100%;
     }
 }
+.grid-box,.large{
+    margin: 3px;
+}

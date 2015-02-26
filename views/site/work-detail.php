@@ -15,6 +15,6 @@
             <?php } ?>
         </div>
         <h3>Description:</h3>
-        <h4><?= $description ?></h4>
+        <h4 style="max-width: 500px"><?= $description ?></h4>
     </div>
 </div>

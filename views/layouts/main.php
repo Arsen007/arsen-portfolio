@@ -103,14 +103,9 @@ AppAsset::register($this);
             </div>
           </div>
           <div class="grid-box">
-            <img src="img/work/img5.jpg" alt="">
+            <img src="img/work/threestay.png" alt="">
             <div class="overlay">
-               <a href="img/work/img5.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-          <div class="browse-box">
-            <div class="more">
-              <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'threestay'],['class' => 'fancybox fancybox.ajax']) ?>
             </div>
           </div>
         </div>

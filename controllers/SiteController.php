@@ -88,6 +88,14 @@ class SiteController extends Controller
                 'screen' => 'xcinex.png',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
                 'description' => 'Cinema at home'
+            ],
+            [
+                'name' => 'Three Stay',
+                'id' => 'threestay',
+                'url' => 'http://www.threestay.com/',
+                'screen' => 'threestay.png',
+                'technologies' => 'magento,php,javascript,mysql',
+                'description' => 'Hotels, houses etc bocking for travelers'
             ]
         ];
         $currWork = [];
