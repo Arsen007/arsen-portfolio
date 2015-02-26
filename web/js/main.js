@@ -57,7 +57,30 @@ jQuery(document).ready(function( $ ) {
        $(this).toggleClass("active");
       });
 
-  });
+    // "I AM" slider
+    var i = 0;
+    var titles = ['DEVELOPER', 'EXPERT', 'JUST GOOD PERSON ;)', 'ARSEN SARGSYAN']
+    setInterval(function () {
+
+        $('.slide_item').animate({
+            //'margin-top':'25px',
+            'height': '0px'
+        }, 500, function () {
+            $(this).text(titles[i]);
+            i++;
+            if (typeof (titles[i]) == 'undefined') {
+                i = 0;
+            }
+            $('.slide_item').animate({
+                //'margin-top':'0px',
+                'height': '50px'
+            })
+        })
+
+
+    }, 2000);
+
+    });
 
   
 //ScrollTop

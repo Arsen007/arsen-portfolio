@@ -29,7 +29,8 @@ AppAsset::register($this);
       <div class="col-md-12 top-header">
         <div class="logo-menu">
           <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
-            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+<!--            <a href="index.html"><img src="img/logo.png" alt="logo"></a>-->
+              <p class="slogan"><span class="open_bracket">{</span>ARSEN SARGSYAN<br><span class="slogan_sub">Web Developer</span><span class="close_bracket">}</span></p>
           </div>
           <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
             <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
@@ -55,8 +56,8 @@ AppAsset::register($this);
       <div class="row">
         <div class="col-md-12">
           <div class="banner text-center">
-            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Frankenstein Shuvo Musa</h1>
-            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Web developer, WordPressian & GEEK ;)</h2>
+<!--            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Arsen Sargsyan</h1>-->
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">I AM <div style="height: 100px;color: #82BC00"><span class="slide_item">ARSEN SARGSYAN</span></div></h2>
             <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
             <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
             <div class="scroll">

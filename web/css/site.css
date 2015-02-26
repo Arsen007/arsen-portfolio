@@ -673,3 +673,39 @@ img {
   color: #6c9c01;
 }
 /* Footer Section End */
+.slogan{
+    font-family: Lato,sans-serif;
+    padding: 0 10px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.slogan_sub{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.open_bracket{
+    display: block;
+    position: absolute;
+    left: -15px;
+    font-size: 55px;
+    top: 12px;
+    color: rgb(129, 187, 0);
+}
+.close_bracket{
+    display: block;
+    position: absolute;
+    right: -10px;
+    font-size: 55px;
+    top: 12px;
+    color: rgb(129, 187, 0);
+}
+
+.slide_item{
+    display: block;
+    overflow: hidden;
+    /*border-bottom: 1px solid white;*/
+}
