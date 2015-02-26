@@ -52,6 +52,34 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionGetWorkDetails()
+    {
+        $workId = Yii::$app->request->getQueryParam('id');
+        $works = [
+            [
+                'name' => 'World Hostels',
+                'id' => 'world_hostels',
+                'url' => 'http://www.youth-hostels.co.uk/',
+                'screen' => 'world-hostels.png',
+                'technologies' => 'php,javascript,mysql,soap',
+                'description' => 'The site helps to find hostels, hotels, apartments.. in worldwide and book them by any period.
+                Site supporting more then 40 localizations on different domains for each country.'
+            ]
+        ];
+        $currWork = [];
+        foreach ($works as $work) {
+            if ($work['id'] == $workId) {
+                $currWork = $work;
+                break;
+            }
+        }
+        if (!empty($currWork)) {
+            return $this->renderPartial('work-detail', $currWork);
+        }
+        return $this->renderPartial('work-detail-fail');
+
+    }
+
     public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {

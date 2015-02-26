@@ -42,5 +42,6 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'app\assets\BootstrapAsset',
+        'app\assets\FancyBoxAsset',
     ];
 }

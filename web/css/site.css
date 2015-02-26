@@ -709,3 +709,48 @@ img {
     overflow: hidden;
     /*border-bottom: 1px solid white;*/
 }
+
+.technoliges_container span {
+    line-height: 1;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #D5D5D5;
+    border-radius: 4px;
+    padding: 7px 9px;
+    margin: 2px;
+    -webkit-font-smoothing: antialiased;
+    color: #2C2C2C;
+}
+
+.technoliges_container span:hover {
+    color: #fff;
+    background: #75AE11;
+}
+
+.work_popup .title {
+    border-bottom: 2px solid #c0c0c0
+}
+
+.work_popup .screen {
+    width: 60%;
+    float: left;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.work_popup .info {
+    float: left;
+    width: 37%;
+    height: 100%;
+    margin-left: 3%
+}
+
+@media screen and (max-width: 850px) {
+    .work_popup .screen {
+        width: 100%;
+    }
+
+    .work_popup .info {
+        width: 100%;
+    }
+}

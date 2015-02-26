@@ -17,7 +17,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title>Arsen Sargsyan</title>
     <?php $this->head() ?>
 </head>
 <body>
@@ -77,9 +77,9 @@ AppAsset::register($this);
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
         <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
           <div class="large">
-            <img src="img/work/img1.jpg" alt="">
+            <img src="img/work/world-hostels.png" alt="">
             <div class="overlay">
-              <a href="img/work/img1.jpg" data-lightbox="img1"><i class="fa fa-search"></i></a>
+              <a href="/site/get-work-details?id=world_hostels" data-id="world_hostels" class="fancybox fancybox.ajax"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
