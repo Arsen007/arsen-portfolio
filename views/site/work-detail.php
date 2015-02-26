@@ -1,6 +1,6 @@
 <div class="work_popup">
     <h1 class="title"><?= $name ?></h1>
-    <?= \yii\helpers\Html::img('/img/work/' . $screen, ['class' => 'screen']) ?>
+    <?= \yii\helpers\Html::img('img/work/' . $screen, ['class' => 'screen']) ?>
     <div class="info">
         <h2><?= \yii\helpers\Html::a($url, $url, ['target' => '_blank', 'style' => 'color:#87B930']) ?></h2>
 
