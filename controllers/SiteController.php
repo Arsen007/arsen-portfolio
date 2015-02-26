@@ -61,9 +61,33 @@ class SiteController extends Controller
                 'id' => 'world_hostels',
                 'url' => 'http://www.youth-hostels.co.uk/',
                 'screen' => 'world-hostels.png',
-                'technologies' => 'php,javascript,mysql,soap',
+                'technologies' => 'php,code igniter,jquery,javascript,mysql,soap',
                 'description' => 'The site helps to find hostels, hotels, apartments.. in worldwide and book them by any period.
                 Site supporting more then 40 localizations on different domains for each country.'
+            ],
+            [
+                'name' => 'Back Stock',
+                'id' => 'backstock',
+                'url' => 'http://thebackstock.com/',
+                'screen' => 'backstock.png',
+                'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
+                'description' => 'Product delivery management for shops and food deliverymans.'
+            ],
+            [
+                'name' => 'Active Location',
+                'id' => 'activelocation',
+                'url' => 'http://activelocation.com/',
+                'screen' => 'activelocation.png',
+                'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
+                'description' => 'Active Location™ deploys Bluetooth sensor platform to analyze and correlate location data from consumer activity. The resulting intelligence gives businesses the ability to increase revenue and deliver an unprecedented understanding of consumer behavior, while offering a privacy-friendly way to identify, position, access and analyze mobile audiences.'
+            ],
+            [
+                'name' => 'XCINEX',
+                'id' => 'xcinex',
+                'url' => 'https://www.xcinex.com/',
+                'screen' => 'xcinex.png',
+                'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
+                'description' => 'Cinema at home'
             ]
         ];
         $currWork = [];

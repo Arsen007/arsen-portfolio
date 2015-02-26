@@ -79,27 +79,27 @@ AppAsset::register($this);
           <div class="large">
             <img src="img/work/world-hostels.png" alt="">
             <div class="overlay">
-                <?= Html::a('<i class="fa fa-search"></i>','/site/get-work-details?id=world_hostels',['class' => 'fancybox fancybox.ajax']) ?>
+                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'world_hostels'],['class' => 'fancybox fancybox.ajax']) ?>
             </div>
           </div>
           <div class="grid-box">
-            <img src="img/work/img2.jpg" alt="">
-            <div class="overlay">
-               <a href="img/work/img2.jpg" data-lightbox="img2"><i class="fa fa-search"></i></a>
-            </div>
+            <img src="img/work/backstock.png" alt="">
+              <div class="overlay">
+              <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'backstock'],['class' => 'fancybox fancybox.ajax']) ?>
+              </div>
           </div>
           <div class="grid-box">
-            <img src="img/work/img3.jpg" alt="">
+            <img src="img/work/activelocation.png" alt="">
             <div class="overlay">
-               <a href="img/work/img3.jpg" data-lightbox="img3"><i class="fa fa-search"></i></a>
+                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'activelocation'],['class' => 'fancybox fancybox.ajax']) ?>
             </div>
           </div>
         </div>
         <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
           <div class="grid-box large">
-            <img src="img/work/img4.jpg" alt="">
+            <img src="img/work/xcinex.png" alt="">
             <div class="overlay">
-               <a href="img/work/img4.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'xcinex'],['class' => 'fancybox fancybox.ajax']) ?>
             </div>
           </div>
           <div class="grid-box">
