@@ -79,7 +79,7 @@ AppAsset::register($this);
           <div class="large">
             <img src="img/work/world-hostels.png" alt="">
             <div class="overlay">
-              <a href="/site/get-work-details?id=world_hostels" data-id="world_hostels" class="fancybox fancybox.ajax"><i class="fa fa-search"></i></a>
+                <?= Html::a('<i class="fa fa-search"></i>','/site/get-work-details?id=world_hostels',['class' => 'fancybox fancybox.ajax']) ?>
             </div>
           </div>
           <div class="grid-box">
