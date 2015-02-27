@@ -60,7 +60,7 @@ class SiteController extends Controller
                 'name' => 'World Hostels',
                 'id' => 'world_hostels',
                 'url' => 'http://www.youth-hostels.co.uk/',
-                'screen' => 'world-hostels.png',
+                'screen' => 'world-hostels.jpg',
                 'technologies' => 'php,code igniter,jquery,javascript,mysql,soap',
                 'description' => 'The site helps to find hostels, hotels, apartments.. in worldwide and book them by any period.
                 Site supporting more then 40 localizations on different domains for each country.'
@@ -69,7 +69,7 @@ class SiteController extends Controller
                 'name' => 'Back Stock',
                 'id' => 'backstock',
                 'url' => 'http://thebackstock.com/',
-                'screen' => 'backstock.png',
+                'screen' => 'backstock.jpg',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
                 'description' => 'Product delivery management for shops and food deliverymans.'
             ],
@@ -77,7 +77,7 @@ class SiteController extends Controller
                 'name' => 'Active Location',
                 'id' => 'activelocation',
                 'url' => 'http://activelocation.com/',
-                'screen' => 'activelocation.png',
+                'screen' => 'activelocation.jpg',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
                 'description' => 'Active Location™ deploys Bluetooth sensor platform to analyze and correlate location data from consumer activity. The resulting intelligence gives businesses the ability to increase revenue and deliver an unprecedented understanding of consumer behavior, while offering a privacy-friendly way to identify, position, access and analyze mobile audiences.'
             ],
@@ -85,7 +85,7 @@ class SiteController extends Controller
                 'name' => 'XCINEX',
                 'id' => 'xcinex',
                 'url' => 'https://www.xcinex.com/',
-                'screen' => 'xcinex.png',
+                'screen' => 'xcinex.jpg',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
                 'description' => 'Cinema at home'
             ],
@@ -93,7 +93,7 @@ class SiteController extends Controller
                 'name' => 'Three Stay',
                 'id' => 'threestay',
                 'url' => 'http://www.threestay.com/',
-                'screen' => 'threestay.png',
+                'screen' => 'threestay.jpg',
                 'technologies' => 'magento,php,javascript,mysql',
                 'description' => 'Hotels, houses etc bocking for travelers'
             ],
@@ -101,7 +101,7 @@ class SiteController extends Controller
                 'name' => 'Family Change Services',
                 'id' => 'familychangeservices',
                 'url' => 'http://www.familychangeservices.com/',
-                'screen' => 'familychangeservices.png',
+                'screen' => 'familychangeservices.jpg',
                 'technologies' => 'php,javascript,angular,mysql',
                 'description' => 'Different services for family in various professions like jurisprudence, psychology, therapy, nutrition etc. Family members registering as users and providers registering as providers then users finding providers based on their needs.'
             ],
@@ -109,7 +109,7 @@ class SiteController extends Controller
                 'name' => 'ARTZLINK',
                 'id' => 'artzlink',
                 'url' => 'http://artzlink.com/',
-                'screen' => 'artzlink.png',
+                'screen' => 'artzlink.jpg',
                 'technologies' => 'yii framework,php,javascript,mysql,braintree api',
                 'description' => 'Cloud based network providing a virtual classroom for performing arts organizations. Instructors can post messages and files, give assignments, grade assignments, and provide spoken feedback to students. Students can receive posted messages/files, record and post assignments, and keep up with their grades.'
             ],
@@ -117,7 +117,7 @@ class SiteController extends Controller
                 'name' => 'ValetTAB',
                 'id' => 'valettab',
                 'url' => 'http://valettab.com/',
-                'screen' => 'valettab.png',
+                'screen' => 'valettab.jpg',
                 'technologies' => 'yii framework,php,javascript,mysql,braintree api,google map api,bootstrap',
                 'description' => 'Admin panel and REST API for mobile application that provide easy way to pay for car parking without cash.'
             ]
