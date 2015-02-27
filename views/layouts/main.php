@@ -140,117 +140,6 @@ AppAsset::register($this);
   </section>
   <!-- Work Section End  -->
 
-  <!-- Testimonial Section Start -->
-<!--  <section id="testimonial">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-<!--        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">What My<br>Client <br><span>Says</span></h1>-->
-<!--        <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">-->
-<!--          <!-- Indicators -->-->
-<!--          <ol class="carousel-indicators">-->
-<!--            <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>-->
-<!--            <li data-target="#testimonial-carousel" data-slide-to="1"></li>-->
-<!--            <li data-target="#testimonial-carousel" data-slide-to="2"></li>-->
-<!--          </ol>-->
-<!--          <div class="carousel-inner">-->
-<!--            <div class="item active">-->
-<!--              <blockquote>-->
-<!--                <div class="commant">-->
-<!--                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">-->
-<!--                    <div class="claint">-->
-<!--                      <img src="img/testimonial/img1.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <span class="quote"><i class="fa fa-quote-left"></i></span>-->
-<!--                  </div>-->
-<!--                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">-->
-<!--                    <div class="info">-->
-<!--                      <p>TLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>-->
-<!--                      <h4>Anamoul Rouf</h4>-->
-<!--                      <h5>CEO, CloudBee</h5>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </blockquote>-->
-<!--            </div>-->
-<!---->
-<!--            <div class="item">-->
-<!--              <blockquote>-->
-<!--                <div class="commant">-->
-<!--                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">-->
-<!--                    <div class="claint">-->
-<!--                      <img src="img/testimonial/img2.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <span class="quote"><i class="fa fa-quote-left"></i></span>-->
-<!--                  </div>-->
-<!--                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">-->
-<!--                    <div class="info">-->
-<!--                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>-->
-<!--                      <h4>Imran Khan</h4>-->
-<!--                      <h5>Founder, WPBean</h5>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </blockquote>-->
-<!--            </div>-->
-<!--            <div class="item">-->
-<!--              <blockquote>-->
-<!--                <div class="commant">-->
-<!--                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">-->
-<!--                    <div class="claint">-->
-<!--                      <img src="img/testimonial/img3.jpg" alt="">-->
-<!--                    </div>-->
-<!--                    <span class="quote"><i class="fa fa-quote-left"></i></span>-->
-<!--                  </div>-->
-<!--                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">-->
-<!--                    <div class="info">-->
-<!--                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>-->
-<!--                      <h4>Tanvir Ahmed</h4>-->
-<!--                      <h5>Contributor, GrayGrids</h5>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </blockquote>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
-  <!-- Testimonial Section End -->
-
-  <!-- Clients Section Start -->
-<!--  <section id="clients">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-<!--        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Clients</span></h1>-->
-<!--        <div id="clients-carousel" class="owl-carousel owl-theme">-->
-<!--          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">-->
-<!--            <a href="#"><img src="img/clients/img1.png" alt=""></a>-->
-<!--          </div>-->
-<!--          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">-->
-<!--            <a href="#"><img src="img/clients/img2.png" alt=""></a>-->
-<!--          </div>-->
-<!--          <div class="item wow fadeInRight animated" data-wow-delay=".9s">-->
-<!--            <a href="#"><img src="img/clients/img3.png" alt=""></a>-->
-<!--          </div>-->
-<!--          <div class="item wow fadeInRight animated" data-wow-delay=".9s">-->
-<!--            <a href="#"><img src="img/clients/img4.png" alt=""></a>-->
-<!--          </div>-->
-<!--          <div class="item wow fadeIn animated">-->
-<!--            <a href="#"><img src="img/clients/img5.png" alt=""></a>-->
-<!--          </div>-->
-<!--          <div class="item wow fadeIn animated">-->
-<!--            <a href="#"><img src="img/clients/img6.png" alt=""></a>-->
-<!--          </div>-->
-<!--          <div class="item wow fadeIn animated">-->
-<!--            <a href="#"><img src="img/clients/img7.png" alt=""></a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
-  <!-- Clients Section End -->
-
   <!-- Skills Section Start -->
   <section id="skills">
     <div class="container">
@@ -300,57 +189,6 @@ AppAsset::register($this);
     </div>
   </section>
   <!-- Skills Section End -->
-
-  <!-- Blog Section Start -->
-<!--  <section id="blog">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-<!--        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Homey<br><span>Blog</span></h1>-->
-<!--        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">-->
-<!--          <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">-->
-<!--            <img src="img/blog/img1.jpg" alt="">-->
-<!--            <div class="large">-->
-<!--              <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>-->
-<!--              <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">-->
-<!--          <div class="blog-item">-->
-<!--            <img src="img/blog/img2.jpg" alt="">-->
-<!--            <div class="content">-->
-<!--              <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>-->
-<!--              <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="blog-item">-->
-<!--            <img src="img/blog/img3.jpg" alt="">-->
-<!--            <div class="content">-->
-<!--              <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>-->
-<!--              <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.8s">-->
-<!--          <div class="blog-item">-->
-<!--            <img src="img/blog/img3.jpg" alt="">-->
-<!--            <div class="content">-->
-<!--              <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>-->
-<!--              <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="blog-item">-->
-<!--            <img src="img/blog/img2.jpg" alt="">-->
-<!--            <div class="content">-->
-<!--              <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>-->
-<!--              <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
-  <!-- Blog Section Start -->
 
   <!-- Feedback Section Start -->
   <section id="feedback">
@@ -420,29 +258,6 @@ AppAsset::register($this);
     </div>
   </footer>
   <!-- Footer section End -->
-<!---->
-<!--  <!-- jQuery Load -->-->
-<!--  <script src="assets/js/jquery-min.js"></script>-->
-<!--  <!-- Bootstrap JS -->-->
-<!--  <script src="assets/js/bootstrap.min.js"></script>-->
-<!--  <!-- WOW JS plugin for animation -->-->
-<!--  <script src="assets/js/wow.js"></script>-->
-<!--  <!-- All JS plugin Triggers -->-->
-<!--  <script src="assets/js/main.js"></script>-->
-<!--  <!-- Smooth scroll -->-->
-<!--  <script src="assets/js/smooth-scroll.js"></script>-->
-<!--  <!--  -->-->
-<!--  <script src="assets/js/jasny-bootstrap.min.js"></script>-->
-<!--  <!-- Counterup -->-->
-<!--  <script src="assets/js/jquery.counterup.min.js"></script>-->
-<!--  <!-- waypoints -->-->
-<!--  <script src="assets/js/waypoints.min.js"></script>-->
-<!--  <!-- circle progress -->-->
-<!--  <script src="assets/js/circle-progress.js"></script>-->
-<!--  <!-- owl carousel -->-->
-<!--  <script src="assets/js/owl.carousel.js"></script>-->
-<!--  <!-- lightbox -->-->
-<!--  <script src="assets/js/lightbox.min.js"></script>-->
 
 <?php $this->endBody() ?>
 </body>
