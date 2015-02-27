@@ -17,6 +17,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <title>Arsen Sargsyan</title>
     <?php $this->head() ?>
 </head>
@@ -44,9 +45,8 @@ AppAsset::register($this);
             <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
             <ul class="nav navmenu-nav">
               <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li><a href="#works">Portfolio</a></li>
-              <li><a href="#clients">Clients</a></li>
-              <li><a href="#blog">Blog</a></li>
               <li><a href="#feedback">Hire/Contact Me</a></li>
             </ul>
           </div>
@@ -58,10 +58,10 @@ AppAsset::register($this);
           <div class="banner text-center">
 <!--            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Arsen Sargsyan</h1>-->
             <h2 class="wow fadeInDown animated" data-wow-delay=".6s">I AM <div style="height: 100px;color: #82BC00"><span class="slide_item">ARSEN SARGSYAN</span></div></h2>
-            <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
-            <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
+            <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
+            <a href="#skills" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
             <div class="scroll">
-              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
+              <a href="#skills"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
           </div>
         </div>
         </div>
@@ -228,8 +228,8 @@ AppAsset::register($this);
 
           <h2>Follow Me</h2>
             <ul class="social-icon">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/arsenoo7" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/arsensargsyan/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
