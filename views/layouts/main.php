@@ -109,25 +109,30 @@ AppAsset::register($this);
             </div>
           </div>
         </div>
+          <div style="clear:both;"></div>
           <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
-            <div class="grid-box grid-box-2">
-              <img src="img/work/familychangeservices.png" alt="">
-                <div class="overlay">
-                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'familychangeservices'],['class' => 'fancybox fancybox.ajax']) ?>
-                </div>
-            </div>
-            <div class="grid-box grid-box-2">
-              <img src="img/work/artzlink.png" alt="">
-              <div class="overlay">
-                  <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'artzlink'],['class' => 'fancybox fancybox.ajax']) ?>
+              <div class="large ">
+                  <img src="img/work/valettab.png" alt="">
+
+                  <div class="overlay">
+                      <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'valettab'], ['class' => 'fancybox fancybox.ajax']) ?>
+                  </div>
               </div>
-            </div>
-            <div class="large grid-box-2">
-              <img src="img/work/valettab.png" alt="">
-              <div class="overlay">
-                  <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'valettab'],['class' => 'fancybox fancybox.ajax']) ?>
+              <div class="grid-box ">
+                  <img src="img/work/familychangeservices.png" alt="">
+
+                  <div class="overlay">
+                      <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'familychangeservices'], ['class' => 'fancybox fancybox.ajax']) ?>
+                  </div>
               </div>
-            </div>
+              <div class="grid-box ">
+                  <img src="img/work/artzlink.png" alt="">
+
+                  <div class="overlay">
+                      <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'artzlink'], ['class' => 'fancybox fancybox.ajax']) ?>
+                  </div>
+              </div>
+
 
           </div>
       </div>
