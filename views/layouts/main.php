@@ -70,12 +70,62 @@ AppAsset::register($this);
   </div>
   <!-- Header Section End -->
 
+<!-- Skills Section Start -->
+<section id="skills">
+  <div class="container">
+    <div class="row">
+    <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.3s">
+      <div class="fact-block">
+        <div class="circle one">
+          <div class="count-info">
+            <h3><span class="counter">80%</span></h3>
+            <h4>PHP</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.0s">
+      <div class="fact-block">
+        <div class="circle two">
+          <div class="count-info">
+            <h3><span class="counter">85%</span></h3>
+            <h4>Yii/Yii2</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.0s">
+      <div class="fact-block">
+        <div class="circle three">
+          <div class="count-info">
+            <h3><span class="counter">70%</span></h3>
+            <h4>MySql</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+      <div class="fact-block">
+        <div class="circle four">
+          <div class="count-info">
+            <h3><span class="counter">90%</span></h3>
+            <h4>JS/jQuery</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- Skills Section End -->
+
   <!-- Work Section Start -->
   <section id="works">
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
-        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
+        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="0.8s">
           <div class="large">
             <img src="img/work/world-hostels.png" alt="">
             <div class="overlay">
@@ -110,7 +160,7 @@ AppAsset::register($this);
           </div>
         </div>
           <div style="clear:both;"></div>
-          <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
+          <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.0s">
               <div class="large ">
                   <img src="img/work/valettab.png" alt="">
 
@@ -140,62 +190,13 @@ AppAsset::register($this);
   </section>
   <!-- Work Section End  -->
 
-  <!-- Skills Section Start -->
-  <section id="skills">
-    <div class="container">
-      <div class="row">
-      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
-      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-        <div class="fact-block">
-          <div class="circle one">
-            <div class="count-info">
-              <h3><span class="counter">80%</span></h3>
-              <h4>PHP</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-        <div class="fact-block">
-          <div class="circle two">
-            <div class="count-info">
-              <h3><span class="counter">85%</span></h3>
-              <h4>Yii/Yii2</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-        <div class="fact-block">
-          <div class="circle three">
-            <div class="count-info">
-              <h3><span class="counter">70%</span></h3>
-              <h4>MySql</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-        <div class="fact-block">
-          <div class="circle four">
-            <div class="count-info">
-              <h3><span class="counter">90%</span></h3>
-              <h4>JS/jQuery</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-  <!-- Skills Section End -->
 
   <!-- Feedback Section Start -->
   <section id="feedback">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s"><span>Hire</span><br>or Contact <br> Me</h1>
-        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay="0.6s"><span>Hire</span><br>or Contact <br> Me</h1>
+        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.0s">
           <form action="" name="contact">
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -216,7 +217,7 @@ AppAsset::register($this);
             <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
           </form>
         </div>
-        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.4s">
+        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.2s">
           <div class="address">
             <h2>Contact Info</h2>
             <ul class="contact-info">
@@ -228,10 +229,7 @@ AppAsset::register($this);
           <h2>Follow Me</h2>
             <ul class="social-icon">
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
             </ul>
           </div>
         </div>
