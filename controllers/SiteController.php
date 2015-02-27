@@ -96,6 +96,30 @@ class SiteController extends Controller
                 'screen' => 'threestay.png',
                 'technologies' => 'magento,php,javascript,mysql',
                 'description' => 'Hotels, houses etc bocking for travelers'
+            ],
+            [
+                'name' => 'Family Change Services',
+                'id' => 'familychangeservices',
+                'url' => 'http://www.familychangeservices.com/',
+                'screen' => 'familychangeservices.png',
+                'technologies' => 'php,javascript,angular,mysql',
+                'description' => 'Different services for family in various professions like jurisprudence, psychology, therapy, nutrition etc. Family members registering as users and providers registering as providers then users finding providers based on their needs.'
+            ],
+            [
+                'name' => 'ARTZLINK',
+                'id' => 'artzlink',
+                'url' => 'http://artzlink.com/',
+                'screen' => 'artzlink.png',
+                'technologies' => 'yii framework,php,javascript,mysql,braintree api',
+                'description' => 'Cloud based network providing a virtual classroom for performing arts organizations. Instructors can post messages and files, give assignments, grade assignments, and provide spoken feedback to students. Students can receive posted messages/files, record and post assignments, and keep up with their grades.'
+            ],
+            [
+                'name' => 'ValetTAB',
+                'id' => 'valettab',
+                'url' => 'http://valettab.com/',
+                'screen' => 'valettab.png',
+                'technologies' => 'yii framework,php,javascript,mysql,braintree api,google map api,bootstrap',
+                'description' => 'Admin panel and REST API for mobile application that provide easy way to pay for car parking without cash.'
             ]
         ];
         $currWork = [];

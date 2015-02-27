@@ -757,3 +757,6 @@ img {
 .grid-box,.large{
     margin: 3px;
 }
+.grid-box-2{
+    float: left;
+}

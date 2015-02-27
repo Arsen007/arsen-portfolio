@@ -22,16 +22,16 @@ wow.init();
 
 jQuery(document).ready(function( $ ) {
         $('.circle').circleProgress({
-        value: 0.70,
+        value: 0.80,
         startAngle: 4.75,
         size: 200,
         fill: { gradient: ["#FFFFFF"] }
       });
         $('.two').circleProgress({
-          value: 0.75,
+          value: 0.85,
         });
         $('.three').circleProgress({
-          value: 0.50,
+          value: 0.70,
         });
         $('.four').circleProgress({
           value: 0.90,
