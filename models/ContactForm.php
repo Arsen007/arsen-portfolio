@@ -13,8 +13,8 @@ class ContactForm extends Model
     public $name;
     public $email;
     public $subject;
-    public $body;
-    public $verifyCode;
+    public $message;
+//    public $verifyCode;
 
     /**
      * @return array the validation rules.
@@ -23,11 +23,11 @@ class ContactForm extends Model
     {
         return [
             // name, email, subject and body are required
-            [['name', 'email', 'subject', 'body'], 'required'],
+            [['name', 'email', 'subject', 'message'], 'required'],
             // email has to be a valid email address
             ['email', 'email'],
             // verifyCode needs to be entered correctly
-            ['verifyCode', 'captcha'],
+//            ['verifyCode', 'captcha'],
         ];
     }
 
@@ -46,19 +46,26 @@ class ContactForm extends Model
      * @param  string  $email the target email address
      * @return boolean whether the model passes validation
      */
-    public function contact($email)
+    public function sendMail()
     {
-        if ($this->validate()) {
-            Yii::$app->mailer->compose()
-                ->setTo($email)
-                ->setFrom([$this->email => $this->name])
-                ->setSubject($this->subject)
-                ->setTextBody($this->body)
-                ->send();
+        \Yii::$app->response->format = 'json';
+        $response = new \stdClass();
 
-            return true;
+        if ($this->validate()) {
+            $mailer = \Yii::$app->mailer->compose('contact', ['data' => $this])
+               ->setFrom([$this->email => $this->name])
+               ->setTo(\Yii::$app->params['contactEmail'])
+               ->setReplyTo($this->email)
+               ->setSubject($this->subject);
+            if($mailer->send()){
+                $response->success = true;
+            }else{
+                $response->success = false;
+            }
         } else {
-            return false;
+            $response->success = false;
+            $response->errors = $this->getErrors();
         }
+        return $response;
     }
 }

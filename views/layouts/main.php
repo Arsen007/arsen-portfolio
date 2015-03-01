@@ -197,25 +197,32 @@ AppAsset::register($this);
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay="0.6s"><span>Hire</span><br>or Contact <br> Me</h1>
         <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.0s">
-          <form action="" name="contact">
+          <form action="" id="mail-form" name="contact">
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-user"></i></span>
               <input type="text" name="name" class="form-control" placeholder="Your name">
             </div>
+            <span class="error-msg"></span>
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
               <input type="email" name="email" class="form-control" placeholder="Email">
             </div>
+              <span class="error-msg"></span>
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-fire"></i></span>
               <input type="text" name="subject" class="form-control" placeholder="Subject">
             </div>
+              <span class="error-msg"></span>
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-comments"></i></span>
               <textarea name="message" class="form-control large" placeholder="Massage"></textarea>
             </div>
+              <span class="error-msg"></span>
             <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
           </form>
+            <div class="success-mail-sent hidden">
+                Your message successfully sent. Thank you!
+            </div>
         </div>
         <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.2s">
           <div class="address">

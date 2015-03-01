@@ -89,6 +89,37 @@ jQuery(document).ready(function( $ ) {
             }
         }
     });
+
+    $('#mail-form').submit(function(e){
+        e.preventDefault();
+        $('.input-group').each(function(i,element){
+            $(element).next('span').text('');
+        });
+        $('button[type="submit"]').html('<i class="fa fa-envelope-o"></i>SENDING...')
+        $.ajax({
+            url:'site/contact',
+            type:"post",
+            dataType:"json",
+            data:$(this).serialize(),
+            success:function(data){
+                $('button[type="submit"]').text('SENDING...').prop('disabled',true);
+                if(!data.success && data.errors){
+                    $('.input-group').each(function(i,element){
+                        $.each(data.errors,function(key,value){
+                            if($(element).find('.form-control').attr('name') == key){
+                                $(element).next('span').text(value);
+                            }
+                        })
+                    });
+                    $('button[type="submit"]').html('<i class="fa fa-envelope-o"></i>SEND').prop('disabled',false);
+
+                }else{
+                    $('#mail-form').addClass('hidden');
+                    $('.success-mail-sent').removeClass('hidden');
+                }
+            }
+        })
+    })
     });
 
   
