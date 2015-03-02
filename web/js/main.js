@@ -22,12 +22,15 @@ var wow = new WOW({
 jQuery(document).ready(function( $ ) {
     //wow.init();
     // set masonry grid
-    var $container = $('.masonry-container');
-    // initialize
-    $container.masonry({
-      //columnWidth: 200,
-      itemSelector: '.masonry-item'
-    });
+    setTimeout(function(){
+        var $container = $('.masonry-container');
+            // initialize
+            $container.masonry({
+              //columnWidth: 200,
+              itemSelector: '.masonry-item'
+            });
+    },500)
+
         $('.circle').circleProgress({
         value: 0.80,
         startAngle: 4.75,
