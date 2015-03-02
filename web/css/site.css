@@ -439,7 +439,9 @@ img {
 /* Clients Section End */
 /* Skills Section Start */
 #skills {
-  background: url(../img/backgrounds/skill-bg.jpg);
+  /*background: url(../img/backgrounds/skill-bg.jpg);*/
+    background-color: rgb(90, 103, 124);
+
   background-size: cover;
   color: #ffffff;
   text-align: center;

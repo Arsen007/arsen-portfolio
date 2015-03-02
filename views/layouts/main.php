@@ -70,6 +70,76 @@ AppAsset::register($this);
   </div>
   <!-- Header Section End -->
 
+<!-- Work Section Start -->
+<section id="works">
+  <div class="container">
+    <div class="row">
+      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
+      <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="0.8s">
+        <div class="large">
+          <img src="img/work/world-hostels.jpg" alt="">
+          <div class="overlay">
+              <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'world_hostels'],['class' => 'fancybox fancybox.ajax']) ?>
+          </div>
+        </div>
+        <div class="grid-box">
+          <img src="img/work/backstock.jpg" alt="">
+            <div class="overlay">
+            <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'backstock'],['class' => 'fancybox fancybox.ajax']) ?>
+            </div>
+        </div>
+        <div class="grid-box">
+          <img src="img/work/activelocation.jpg" alt="">
+          <div class="overlay">
+              <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'activelocation'],['class' => 'fancybox fancybox.ajax']) ?>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
+        <div class="grid-box large">
+          <img src="img/work/xcinex.jpg" alt="">
+          <div class="overlay">
+              <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'xcinex'],['class' => 'fancybox fancybox.ajax']) ?>
+          </div>
+        </div>
+        <div class="grid-box large">
+          <img src="img/work/threestay.jpg" alt="">
+          <div class="overlay">
+              <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'threestay'],['class' => 'fancybox fancybox.ajax']) ?>
+          </div>
+        </div>
+      </div>
+        <div style="clear:both;"></div>
+        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.0s">
+            <div class="large ">
+                <img src="img/work/valettab.jpg" alt="">
+
+                <div class="overlay">
+                    <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'valettab'], ['class' => 'fancybox fancybox.ajax']) ?>
+                </div>
+            </div>
+            <div class="grid-box ">
+                <img src="img/work/familychangeservices.jpg" alt="">
+
+                <div class="overlay">
+                    <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'familychangeservices'], ['class' => 'fancybox fancybox.ajax']) ?>
+                </div>
+            </div>
+            <div class="grid-box ">
+                <img src="img/work/artzlink.jpg" alt="">
+
+                <div class="overlay">
+                    <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'artzlink'], ['class' => 'fancybox fancybox.ajax']) ?>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+  </div>
+</section>
+<!-- Work Section End  -->
+
 <!-- Skills Section Start -->
 <section id="skills">
   <div class="container">
@@ -119,76 +189,6 @@ AppAsset::register($this);
   </div>
 </section>
 <!-- Skills Section End -->
-
-  <!-- Work Section Start -->
-  <section id="works">
-    <div class="container">
-      <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
-        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="0.8s">
-          <div class="large">
-            <img src="img/work/world-hostels.jpg" alt="">
-            <div class="overlay">
-                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'world_hostels'],['class' => 'fancybox fancybox.ajax']) ?>
-            </div>
-          </div>
-          <div class="grid-box">
-            <img src="img/work/backstock.jpg" alt="">
-              <div class="overlay">
-              <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'backstock'],['class' => 'fancybox fancybox.ajax']) ?>
-              </div>
-          </div>
-          <div class="grid-box">
-            <img src="img/work/activelocation.jpg" alt="">
-            <div class="overlay">
-                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'activelocation'],['class' => 'fancybox fancybox.ajax']) ?>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
-          <div class="grid-box large">
-            <img src="img/work/xcinex.jpg" alt="">
-            <div class="overlay">
-                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'xcinex'],['class' => 'fancybox fancybox.ajax']) ?>
-            </div>
-          </div>
-          <div class="grid-box large">
-            <img src="img/work/threestay.jpg" alt="">
-            <div class="overlay">
-                <?= Html::a('<i class="fa fa-search"></i>',['/site/get-work-details','id'=>'threestay'],['class' => 'fancybox fancybox.ajax']) ?>
-            </div>
-          </div>
-        </div>
-          <div style="clear:both;"></div>
-          <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.0s">
-              <div class="large ">
-                  <img src="img/work/valettab.jpg" alt="">
-
-                  <div class="overlay">
-                      <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'valettab'], ['class' => 'fancybox fancybox.ajax']) ?>
-                  </div>
-              </div>
-              <div class="grid-box ">
-                  <img src="img/work/familychangeservices.jpg" alt="">
-
-                  <div class="overlay">
-                      <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'familychangeservices'], ['class' => 'fancybox fancybox.ajax']) ?>
-                  </div>
-              </div>
-              <div class="grid-box ">
-                  <img src="img/work/artzlink.jpg" alt="">
-
-                  <div class="overlay">
-                      <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'artzlink'], ['class' => 'fancybox fancybox.ajax']) ?>
-                  </div>
-              </div>
-
-
-          </div>
-      </div>
-    </div>
-  </section>
-  <!-- Work Section End  -->
 
 
   <!-- Feedback Section Start -->
