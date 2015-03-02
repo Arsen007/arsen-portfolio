@@ -310,10 +310,10 @@ img {
   left: 38%;
   top: 36%;
 }
-#works .grid-box.large .overlay a {
+#works .overlay a {
   position: absolute;
   left: 44%;
-  top: 36%;
+  top: 28%;
 }
 #works .overlay {
   position: absolute;
@@ -337,7 +337,7 @@ img {
   font-size: 24px;
   color: #82bc00;
 }
-#works .large:hover .overlay,
+#works .masonry-item:hover .overlay,
 #works .grid-box:hover .overlay {
   opacity: 1;
 }
@@ -756,6 +756,10 @@ img {
     .work_popup .info {
         width: 100%;
     }
+
+    .masonry-item{
+        width: 100%!important;
+    }
 }
 
 .error-msg{
@@ -772,4 +776,9 @@ img {
 .success-mail-sent{
     font-size: 30px;
     color: rgb(174, 255, 165);
+}
+
+.masonry-item{
+    margin: 10px;
+    text-align: center;
 }

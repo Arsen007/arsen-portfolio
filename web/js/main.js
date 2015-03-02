@@ -120,6 +120,13 @@ jQuery(document).ready(function( $ ) {
             }
         })
     })
+    // set masonry grid
+    var $container = $('.masonry-container');
+    // initialize
+    $container.masonry({
+      //columnWidth: 200,
+      itemSelector: '.masonry-item'
+    });
     });
 
   
