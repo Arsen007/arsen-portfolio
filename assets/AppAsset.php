@@ -43,6 +43,6 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         'app\assets\BootstrapAsset',
         'app\assets\FancyBoxAsset',
-//        'app\assets\MasonryAsset',
+        'app\assets\MasonryAsset',
     ];
 }

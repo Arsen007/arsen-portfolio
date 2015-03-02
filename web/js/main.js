@@ -16,11 +16,12 @@ $("ul.qcontrols li").click(function(){
 //WOW Scroll Spy
 var wow = new WOW({
     //disabled for mobile
-    mobile: false
+    mobile: true
 });
-wow.init();
 
 jQuery(document).ready(function( $ ) {
+    wow.init();
+
         $('.circle').circleProgress({
         value: 0.80,
         startAngle: 4.75,
@@ -121,12 +122,12 @@ jQuery(document).ready(function( $ ) {
         })
     })
     // set masonry grid
-    //var $container = $('.masonry-container');
-    //// initialize
-    //$container.masonry({
-    //  //columnWidth: 200,
-    //  itemSelector: '.masonry-item'
-    //});
+    var $container = $('.masonry-container');
+    // initialize
+    $container.masonry({
+      //columnWidth: 200,
+      itemSelector: '.masonry-item'
+    });
     });
 
   
