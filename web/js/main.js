@@ -20,7 +20,7 @@ var wow = new WOW({
 });
 
 jQuery(document).ready(function( $ ) {
-    //wow.init();
+    wow.init();
     // set masonry grid
     setTimeout(function(){
         var $container = $('.masonry-container');
