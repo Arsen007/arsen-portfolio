@@ -20,7 +20,7 @@ var wow = new WOW({
 });
 
 jQuery(document).ready(function( $ ) {
-    wow.init();
+    //wow.init();
 
         $('.circle').circleProgress({
         value: 0.80,
