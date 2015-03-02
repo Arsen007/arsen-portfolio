@@ -782,3 +782,6 @@ img {
     margin: 10px;
     text-align: center;
 }
+.wow{
+    visibility: hidden;
+}
