@@ -15,7 +15,7 @@ AppAsset::register($this);
 <html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="<?= Yii::$app->charset ?>"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
     <?= Html::csrfMetaTags() ?>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>Arsen Sargsyan</title>
