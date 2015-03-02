@@ -21,7 +21,13 @@ var wow = new WOW({
 
 jQuery(document).ready(function( $ ) {
     //wow.init();
-
+    // set masonry grid
+    var $container = $('.masonry-container');
+    // initialize
+    $container.masonry({
+      //columnWidth: 200,
+      itemSelector: '.masonry-item'
+    });
         $('.circle').circleProgress({
         value: 0.80,
         startAngle: 4.75,
@@ -121,13 +127,7 @@ jQuery(document).ready(function( $ ) {
             }
         })
     })
-    // set masonry grid
-    var $container = $('.masonry-container');
-    // initialize
-    $container.masonry({
-      //columnWidth: 200,
-      itemSelector: '.masonry-item'
-    });
+
     });
 
   
