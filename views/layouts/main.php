@@ -169,7 +169,7 @@ AppAsset::register($this);
   <div class="container">
     <div class="row">
     <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">My<br>Passionate<br> <span>Skills</span></h1>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.7s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle one">
           <div class="count-info">
@@ -179,7 +179,7 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle two">
           <div class="count-info">
@@ -189,7 +189,7 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle three">
           <div class="count-info">
@@ -199,7 +199,7 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle four">
           <div class="count-info">
@@ -274,7 +274,7 @@ AppAsset::register($this);
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-          <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
+          <div class="copyright wow fadeInUp animated" data-wow-delay=".3s">
             <p>Copyright &copy; <?= date('Y')?> Arsen Sargsyan | All rights reserved.</p>
           </div>
         </div>
