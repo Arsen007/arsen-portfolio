@@ -12,6 +12,21 @@ $("ul.qcontrols li").click(function(){
   }
 });
 
+function detectmob() {
+ if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+    return true;
+  }
+ else {
+    return false;
+  }
+}
 
 //WOW Scroll Spy
 var wow = new WOW({
@@ -92,10 +107,16 @@ jQuery(document).ready(function( $ ) {
 
     $('#works a').fancybox({
         'type': 'ajax',
-        'width': '75%',
+        'width': '85%',
         'autoScale': true,
         'autoDimensions': false,
         'autoSize': false,
+        beforeLoad : function() {
+                if(detectmob()){
+                    this.width = '100%';
+                    this.height = '100%';
+                }
+           },
         helpers: {
             overlay: {
                 locked: true
