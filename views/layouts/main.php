@@ -73,7 +73,7 @@ AppAsset::register($this);
 <section id="works">
   <div class="container">
     <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".2s">Some of <br>My <br><span>Works</span></h1>
         <div class="masonry-container">
             <div class="masonry-item" style="width: 30%;height: 150px">
                 <img src="img/work/logo/world-hostels.png" alt="">
