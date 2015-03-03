@@ -57,10 +57,10 @@ AppAsset::register($this);
         <div class="col-md-12">
           <div class="banner text-center">
             <h2 class="wow fadeInDown animated" data-wow-delay=".6s">I AM <div style="height: 100px;color: #82BC00"><span class="slide_item">ARSEN SARGSYAN</span></div></h2>
-            <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Contact/Hire Me</a>
-            <a href="#about" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
+            <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="0.5s">Contact/Hire Me</a>
+            <a href="#about" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="0.5s">Learn More</a>
             <div class="scroll">
-              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
+              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="0.5s"></i></a>
           </div>
         </div>
         </div>
