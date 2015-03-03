@@ -144,6 +144,24 @@ img {
   color: #ffffff;
 }
 
+#about {
+    width: 100%;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    font-family: Lato,sans-serif;
+    /*font-weight: bolder;*/
+}
+#about p{
+    font-size: 25px;
+
+}
+#about a{
+    color: #387CA0;
+}
+
 #header:before {
   background: rgba(1, 0, 2, 0.7);
   position: absolute;
