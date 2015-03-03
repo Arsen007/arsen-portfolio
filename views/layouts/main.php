@@ -56,12 +56,11 @@ AppAsset::register($this);
       <div class="row">
         <div class="col-md-12">
           <div class="banner text-center">
-<!--            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Arsen Sargsyan</h1>-->
             <h2 class="wow fadeInDown animated" data-wow-delay=".6s">I AM <div style="height: 100px;color: #82BC00"><span class="slide_item">ARSEN SARGSYAN</span></div></h2>
-            <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
-            <a href="#skills" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
+            <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Contact/Hire Me</a>
+            <a href="#about" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
             <div class="scroll">
-              <a href="#skills"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
+              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
           </div>
         </div>
         </div>
@@ -144,13 +143,11 @@ AppAsset::register($this);
   <div class="container">
     <div class="row">
         <div class="col-md-5 text-center">
-        <img src="img/photo_300px.png" class="img-circle" id="photo">
-
+            <img src="img/photo_300px.png" class="wow bounceInLeft animated img-circle" data-wow-delay="0.4s" id="photo">
         </div>
         <div class="col-md-6" >
-            <h1>Hi there, I am Arsen, a Web developer and designer...</h1>
+            <h1 class="wow fadeInRight animated" data-wow-delay="0.4s">Hi there, I am Arsen, a Web developer and designer...</h1>
             <br>
-
             <p>My age is 25 years and I'm from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I have been worked in 3 private companies for 3+ years
                 and recent 6 month switched to freelancing.
                 <br>
@@ -165,7 +162,6 @@ AppAsset::register($this);
     </div>
   </div>
 </section>
-
 <!-- About me Section End -->
 
 <!-- Skills Section Start -->
