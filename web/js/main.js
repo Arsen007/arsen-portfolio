@@ -91,8 +91,11 @@ jQuery(document).ready(function( $ ) {
     }, 2000);
 
     $('#works a').fancybox({
-        type: 'ajax',
-        //'scrolling'   : 'no',
+        'type': 'ajax',
+        'width': '75%',
+        'autoScale': true,
+        'autoDimensions': false,
+        'autoSize': false,
         helpers: {
             overlay: {
                 locked: true
