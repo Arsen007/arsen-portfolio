@@ -28,6 +28,18 @@ function detectmob() {
   }
 }
 
+function centralizeOverlayZoom(){
+    $('.masonry-item').each(function(){
+        var $inner     = $(this).find('.overlay a'),
+            $wrapper   = $(this).find('.overlay');
+          $inner.css({
+              'top'  : ($(this).outerHeight() / 2) - ($inner.outerHeight(true) / 2),
+              'left' : ($(this).outerWidth() / 2) - ($inner.outerWidth(true) / 2)
+          });
+    })
+
+}
+
 //WOW Scroll Spy
 var wow = new WOW({
     //disabled for mobile
@@ -155,9 +167,14 @@ jQuery(document).ready(function( $ ) {
         })
     })
 
+  // centralize overlay zoom icon
+    centralizeOverlayZoom();
+    $(window).on('resize',function(){
+        centralizeOverlayZoom();
+    })
+
     });
 
-  
 //ScrollTop
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
