@@ -143,12 +143,12 @@ AppAsset::register($this);
   <div class="container">
     <div class="row">
         <div class="col-md-5 text-center">
-            <img src="img/photo_300px.png" class="wow bounceInLeft animated img-circle" data-wow-delay="0.4s" id="photo">
+            <img src="img/photo_300px.png" class="wow bounceInLeft animated img-circle" data-wow-delay="0.2s" id="photo">
         </div>
         <div class="col-md-6" >
             <h1 class="wow fadeInRight animated" data-wow-delay="0.4s">Hi there, I am Arsen, a Web developer and designer...</h1>
             <br>
-            <p>My age is 25 years and I'm from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I have been worked in 3 private companies for 3+ years
+            <p class="wow fadeInRight animated" data-wow-delay="0.4s">My age is 25 years and I'm from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I have been worked in 3 private companies for 3+ years
                 and recent 6 month switched to freelancing.
                 <br>
                 I have created lots of public and private websites(some shown above) and always looking for more work to
@@ -168,8 +168,8 @@ AppAsset::register($this);
 <section id="skills">
   <div class="container">
     <div class="row">
-    <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.3s">
+    <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">My<br>Passionate<br> <span>Skills</span></h1>
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.7s">
       <div class="fact-block">
         <div class="circle one">
           <div class="count-info">
@@ -179,7 +179,7 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.0s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
       <div class="fact-block">
         <div class="circle two">
           <div class="count-info">
@@ -189,7 +189,7 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.0s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
       <div class="fact-block">
         <div class="circle three">
           <div class="count-info">
@@ -199,7 +199,7 @@ AppAsset::register($this);
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
       <div class="fact-block">
         <div class="circle four">
           <div class="count-info">
@@ -219,36 +219,36 @@ AppAsset::register($this);
   <section id="feedback">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay="0.6s"><span>Hire</span><br>or Contact <br> Me</h1>
-        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.0s">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay="0.4s"><span>Hire</span><br>or Contact <br> Me</h1>
+        <div class="col-sm-6 col-md-6">
           <form action="" id="mail-form" name="contact">
-            <div class="input-group">
+            <div class="input-group wow fadeInLeft animated">
               <span class="input-group-addon"><i class="fa fa-user"></i></span>
               <input type="text" name="name" class="form-control" placeholder="Your name">
             </div>
             <span class="error-msg"></span>
-            <div class="input-group">
+            <div class="input-group wow fadeInLeft animated">
               <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
               <input type="email" name="email" class="form-control" placeholder="Email">
             </div>
               <span class="error-msg"></span>
-            <div class="input-group">
+            <div class="input-group wow fadeInLeft animated">
               <span class="input-group-addon"><i class="fa fa-fire"></i></span>
               <input type="text" name="subject" class="form-control" placeholder="Subject">
             </div>
               <span class="error-msg"></span>
-            <div class="input-group">
+            <div class="input-group wow fadeInLeft animated">
               <span class="input-group-addon"><i class="fa fa-comments"></i></span>
               <textarea name="message" class="form-control large" placeholder="Massage"></textarea>
             </div>
               <span class="error-msg"></span>
-            <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
+            <button type="submit" class="btn btn-green wow fadeInLeft animated"><i class="fa fa-envelope-o"></i>Send</button>
           </form>
             <div class="success-mail-sent hidden">
                 Your message successfully sent. Thank you!
             </div>
         </div>
-        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.2s">
+        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="0.5s">
           <div class="address">
             <h2>Contact Info</h2>
             <ul class="contact-info">
