@@ -42,7 +42,7 @@ AppAsset::register($this);
         <div class="sidebar-nav">
           <!-- navigation start -->
           <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
-            <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+            <a href=""><img class="logo" src="img/logo.png" alt="logo"></a>
             <ul class="nav navmenu-nav">
               <li class="active"><a href="#header">Home</a></li>
                 <li><a href="#works">Portfolio</a></li>
