@@ -60,18 +60,17 @@ jQuery(document).ready(function( $ ) {
     },500)
 
         $('.circle').circleProgress({
-        value: 0.80,
+        value: 0.9,
         startAngle: 4.75,
         size: 200,
         fill: { gradient: ["#FFFFFF"] }
       });
         $('.two').circleProgress({
-          value: 0.9,
-        });
-        $('.three').circleProgress({
+          startAngle: 4.75,
           value: 0.85,
         });
-        $('.four').circleProgress({
+        $('.three').circleProgress({
+          startAngle: 4.75,
           value: 0.85,
         });
 
