@@ -239,7 +239,7 @@ AppAsset::register($this);
               <span class="error-msg"></span>
             <div class="input-group wow fadeInLeft animated">
               <span class="input-group-addon"><i class="fa fa-comments"></i></span>
-              <textarea name="message" class="form-control large" placeholder="Massage"></textarea>
+              <textarea name="message" class="form-control large" placeholder="Message"></textarea>
             </div>
               <span class="error-msg"></span>
             <button type="submit" class="btn btn-green wow fadeInLeft animated"><i class="fa fa-envelope-o"></i>Send</button>
