@@ -50,9 +50,16 @@ class ContactForm extends Model
     {
         \Yii::$app->response->format = 'json';
         $response = new \stdClass();
-
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $providerDetails = file_get_contents("http://ipinfo.io/{$ip}/json");
+        $info = [
+            'ip' => $ip,
+            'os' => get_browser(null, true)['platform_description'],
+            'browser' => get_browser(null, true)['parent'],
+            'provider' => $providerDetails,
+        ];
         if ($this->validate()) {
-            $mailer = \Yii::$app->mailer->compose('contact', ['data' => $this])
+            $mailer = \Yii::$app->mailer->compose('contact', ['data' => $this,'info' =>$info])
                ->setFrom([$this->email => $this->name])
                ->setTo(\Yii::$app->params['contactEmail'])
                ->setReplyTo($this->email)
