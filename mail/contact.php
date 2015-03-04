@@ -9,7 +9,7 @@
 <br>
 <br>
 -----------------
-sender info
+sender info<br>
 IP - <?=$info['ip']?><br>
 OS - <?=$info['os']?><br>
 BROWSER - <?=$info['browser']?><br>
