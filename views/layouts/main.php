@@ -45,8 +45,9 @@ AppAsset::register($this);
             <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
             <ul class="nav navmenu-nav">
               <li class="active"><a href="#header">Home</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#works">Portfolio</a></li>
+                <li><a href="#works">Portfolio</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
               <li><a href="#feedback">Hire/Contact Me</a></li>
             </ul>
           </div>
