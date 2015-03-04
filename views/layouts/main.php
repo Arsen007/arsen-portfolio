@@ -73,7 +73,7 @@ AppAsset::register($this);
 <section id="works">
   <div class="container">
     <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".2s">Some of <br>My <br><span>Works</span></h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".2s">Some of My <span>Works</span></h1>
         <div class="masonry-container">
             <div class="masonry-item" style="width: 30%;height: 150px">
                 <img src="img/work/logo/world-hostels.png" alt="">
@@ -168,7 +168,7 @@ AppAsset::register($this);
 <section id="skills">
   <div class="container">
     <div class="row">
-    <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">My<br>Passionate<br> <span>Skills</span></h1>
+    <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">My Passionate <span>Skills</span></h1>
     <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle one">
@@ -219,7 +219,7 @@ AppAsset::register($this);
   <section id="feedback">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay="0.4s"><span>Hire</span><br>or Contact <br> Me</h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay="0.4s"><span>Hire</span> or Contact Me</h1>
         <div class="col-sm-6 col-md-6">
           <form action="" id="mail-form" name="contact">
             <div class="input-group wow fadeInLeft animated">
