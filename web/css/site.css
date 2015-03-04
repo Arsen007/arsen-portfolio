@@ -781,6 +781,12 @@ img {
     }
 }
 
+@media screen and (max-width: 850px) and (min-width: 600px) {
+    .masonry-item{
+        width: 45%!important;
+    }
+}
+
 .error-msg{
     display: block;
     float: left;
