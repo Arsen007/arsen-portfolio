@@ -475,7 +475,7 @@ img {
   border-radius: 50%;
   height: 216px;
   padding: 6px 6px;
-  margin: 24px 60px;
+  margin: 0 auto;
   position: relative;
 }
 #skills .count-info {
@@ -489,7 +489,7 @@ img {
 #skills .count-info h3 {
   font-size: 54px;
   font-weight: 700;
-  line-height: 34px;
+  line-height: 68px;
 }
 #skills .count-info h4 {
   font-size: 22px;
@@ -813,4 +813,9 @@ img {
 
 .work_popup{
     /*width: 50%;*/
+}
+
+.skill-title{
+    margin-top: 20px;
+    color: #82BC00;
 }

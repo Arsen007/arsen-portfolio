@@ -170,44 +170,43 @@ AppAsset::register($this);
   <div class="container">
     <div class="row">
     <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">My Passionate <span>Skills</span></h1>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
+    <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle one">
           <div class="count-info">
-            <h3><span class="counter">80%</span></h3>
-            <h4>PHP</h4>
+            <h3><span class="counter">90%</span></h3>
           </div>
         </div>
       </div>
+        <div class="skill-title">
+            <h2><b>BACK-END<b></h2>
+            <h3>PHP / MySQL / YII / YII2 / CodeIgniter / Magento</h3>
+        </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
+    <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle two">
           <div class="count-info">
             <h3><span class="counter">85%</span></h3>
-            <h4>Yii/Yii2</h4>
           </div>
         </div>
       </div>
+        <div class="skill-title">
+            <h2><b>FRONT-END<b></h2>
+            <h3>JavaScript / jQuery / Angular /HTML5 / CSS3 / Twitter Bootstrap/ Photoshop / Corel Draw</h3>
+        </div>
     </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
+    <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
       <div class="fact-block">
         <div class="circle three">
           <div class="count-info">
-            <h3><span class="counter">70%</span></h3>
-            <h4>MySql</h4>
+            <h3><span class="counter">85%</span></h3>
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.3s">
-      <div class="fact-block">
-        <div class="circle four">
-          <div class="count-info">
-            <h3><span class="counter">90%</span></h3>
-            <h4>JS/jQuery</h4>
-          </div>
-        </div>
+      <div class="skill-title">
+          <h2><b>DEV-TOOLS<b></h2>
+          <h3>GIT / SVN / Mercurial /GRUNT / Vagrant</h3>
       </div>
     </div>
     </div>

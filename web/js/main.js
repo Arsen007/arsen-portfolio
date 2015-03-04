@@ -66,13 +66,13 @@ jQuery(document).ready(function( $ ) {
         fill: { gradient: ["#FFFFFF"] }
       });
         $('.two').circleProgress({
-          value: 0.85,
+          value: 0.9,
         });
         $('.three').circleProgress({
-          value: 0.70,
+          value: 0.85,
         });
         $('.four').circleProgress({
-          value: 0.90,
+          value: 0.85,
         });
 
    //Clients carousel Slider
