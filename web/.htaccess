@@ -9,4 +9,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php
 
 RewriteCond %{HTTP_HOST} ^185\.2\.168\.96$
-RewriteRule ^(.*)$ http://arsen-sargsyan.info/$1 [L,R=301]
+RewriteRule ^(.*)$ http://arsen-sargsyan.info/ [L,R=301]
