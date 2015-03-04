@@ -96,14 +96,14 @@ AppAsset::register($this);
                     <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'activelocation'], ['class' => 'fancybox fancybox.ajax']) ?>
                 </div>
             </div>
-            <div class="masonry-item" style="width: 40%">
+            <div class="masonry-item" style="width: 30%">
                 <img src="img/work/logo/xcinex.png" alt="">
 
                 <div class="overlay">
                     <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'xcinex'], ['class' => 'fancybox fancybox.ajax']) ?>
                 </div>
             </div>
-            <div class="masonry-item" style="width: 50%">
+            <div class="masonry-item" style="width: 30%">
                 <img src="img/work/logo/threestay.png" alt="">
 
                 <div class="overlay">
