@@ -28,16 +28,17 @@ function detectmob() {
   }
 }
 
-function centralizeOverlayZoom(){
-    $('.masonry-item').each(function(){
-        var $inner     = $(this).find('.overlay a'),
-            $wrapper   = $(this).find('.overlay');
-          $inner.css({
-              'top'  : ($(this).outerHeight() / 2) - ($inner.outerHeight(true) / 2),
-              'left' : ($(this).outerWidth() / 2) - ($inner.outerWidth(true) / 2)
-          });
-    })
-
+function centralizeOverlayZoom() {
+    setTimeout(function () {
+        $('.masonry-item').each(function () {
+            var $inner = $(this).find('.overlay a'),
+                $wrapper = $(this).find('.overlay');
+            $inner.css({
+                'top': ($(this).outerHeight() / 2) - ($inner.outerHeight(true) / 2),
+                'left': ($(this).outerWidth() / 2) - ($inner.outerWidth(true) / 2)
+            });
+        })
+    }, 500)
 }
 
 //WOW Scroll Spy
