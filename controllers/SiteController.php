@@ -11,6 +11,7 @@ use app\models\ContactForm;
 
 class SiteController extends Controller
 {
+    public $isMobile = false;
     public function behaviors()
     {
         return [
@@ -49,6 +50,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+        Yii::$app->view->params['isMobile'] = preg_match("/Mobile|Android|BlackBerry|iPhone|Windows Phone/", $_SERVER['HTTP_USER_AGENT']);
         return $this->render('index');
     }
 
