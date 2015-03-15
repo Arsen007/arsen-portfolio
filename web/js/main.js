@@ -184,7 +184,9 @@ jQuery(document).ready(function( $ ) {
 });
 
 function showCopied(element) {
-    $(element).prop('disabled', true);
+    if($(element).next('span').length > 0){
+        return false;
+    }
     var span = document.createElement('span');
     span.className = 'copied-text';
     span.innerText = 'Copied to clipboard';
@@ -192,8 +194,6 @@ function showCopied(element) {
     setTimeout(function () {
         $(span).fadeOut(300, function () {
             $(this).remove();
-            $(element).prop('disabled', false);
-
         })
     }, 1000)
 
