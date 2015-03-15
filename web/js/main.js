@@ -172,8 +172,32 @@ jQuery(document).ready(function( $ ) {
     $(window).on('resize',function(){
         centralizeOverlayZoom();
     })
+    $('.copy-btn').each(function (i, element) {
+        var client = new ZeroClipboard($(element));
+        client.on("ready", function (readyEvent) {
+            client.on("aftercopy", function (event) {
+                showCopied(event.target);
+            });
+        });
 
     });
+});
+
+function showCopied(element) {
+    $(element).prop('disabled', true);
+    var span = document.createElement('span');
+    span.className = 'copied-text';
+    span.innerText = 'Copied to clipboard';
+    $(element).after(span);
+    setTimeout(function () {
+        $(span).fadeOut(300, function () {
+            $(this).remove();
+            $(element).prop('disabled', false);
+
+        })
+    }, 1000)
+
+}
 
 //ScrollTop
 $(function() {

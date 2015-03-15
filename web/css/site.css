@@ -819,3 +819,18 @@ img {
     margin-top: 20px;
     color: #82BC00;
 }
+
+.copy-btn {
+    background: url(../img/copy-green.svg);
+    width: 18px;
+    height: 22px;
+    border: none;
+    background-size: 100%;
+    vertical-align: middle;
+    outline: none;
+}
+.copied-text{
+    margin-left: 5px;
+    font-size: 13px;
+    color: rgb(195, 214, 151);
+}

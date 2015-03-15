@@ -44,5 +44,6 @@ class AppAsset extends AssetBundle
         'app\assets\BootstrapAsset',
         'app\assets\FancyBoxAsset',
         'app\assets\MasonryAsset',
+        'app\assets\ZeroClipboardAsset',
     ];
 }
