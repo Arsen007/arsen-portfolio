@@ -149,7 +149,7 @@ AppAsset::register($this);
         <div class="col-md-6" >
             <h1 class="wow fadeInRight animated" data-wow-delay="0.4s">Hi there, I am Arsen, a Web developer and designer...</h1>
             <br>
-            <p class="wow fadeInRight animated" data-wow-delay="0.4s">I'm 25, come from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I worked in 3 private companies for 3+ years
+            <p class="wow fadeInRight animated" data-wow-delay="0.4s">I'm 25, come from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I worked in 3 private companies for 4 years
                 and recent 6 month switched to freelancing.
                 <br>
                 I have created lots of public and private websites(some shown above) and I am always looking for something new to
