@@ -180,7 +180,7 @@ AppAsset::register($this);
       </div>
         <div class="skill-title">
             <h2><b>BACK-END<b></h2>
-            <h3>PHP / MySQL / YII / YII2 / Laravel / CodeIgniter / Magento</h3>
+            <h3>PHP / MySQL / YII / YII2 / Laravel / CodeIgniter / Magento / CasperJS </h3>
         </div>
     </div>
     <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
@@ -193,7 +193,7 @@ AppAsset::register($this);
       </div>
         <div class="skill-title">
             <h2><b>FRONT-END<b></h2>
-            <h3>JavaScript / jQuery / Angular / CasperJS / HTML5 / CSS3 / Twitter Bootstrap/ Photoshop / Corel Draw</h3>
+            <h3>JavaScript / jQuery / Angular / HTML5 / CSS3 / Twitter Bootstrap/ Photoshop / Corel Draw</h3>
         </div>
     </div>
     <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
