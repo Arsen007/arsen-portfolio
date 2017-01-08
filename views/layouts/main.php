@@ -233,7 +233,7 @@ AppAsset::register($this);
           <div class="address">
             <h2>Contact Info</h2>
             <ul class="contact-info">
-              <li><i class="fa fa-mobile"></i> +374 77966961 <?= !Yii::$app->view->params['isMobile']?'&nbsp;<button class="copy-btn" data-clipboard-text="+37477966961" title="Click to copy"></button>':''?></li>
+              <li><i class="fa fa-mobile"></i> +(374) 77966961 <?= !Yii::$app->view->params['isMobile']?'&nbsp;<button class="copy-btn" data-clipboard-text="+37477966961" title="Click to copy"></button>':''?></li>
               <li><i class="fa fa-skype"></i> ars.dev <?= !Yii::$app->view->params['isMobile']?'&nbsp;<button class="copy-btn" data-clipboard-text="ars.dev" title="Click to copy"></button>':''?></li>
               <li><i class="fa fa-envelope-o"></i> arsendev1@gmail.com <?= !Yii::$app->view->params['isMobile']?'&nbsp;<button class="copy-btn" data-clipboard-text="arsendev1@gmail.com" title="Click to copy"':''?></button></li>
             </ul>
