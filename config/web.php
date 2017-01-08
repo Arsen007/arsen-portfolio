@@ -1,6 +1,7 @@
 <?php
 
 $params = require(__DIR__ . '/params.php');
+Yii::setAlias('@bower', dirname(__DIR__) . '/vendor/bower');
 
 $config = [
     'id' => 'basic',
@@ -27,7 +28,7 @@ $config = [
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
             'useFileTransport' => false,
-            'transport' => require_once('mail_transport.php')
+//            'transport' => require_once('mail_transport.php')
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,

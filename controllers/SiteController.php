@@ -108,6 +108,14 @@ class SiteController extends Controller
                 'description' => 'Different services for family in various professions like jurisprudence, psychology, therapy, nutrition etc. Family members registering as users and providers registering as providers then users finding providers based on their needs.'
             ],
             [
+                'name' => 'Trealer',
+                'id' => 'trealer',
+                'url' => 'https://trealer.com/',
+                'screen' => 'trealer.jpg',
+                'technologies' => 'laravel,php,javascript,angular,mysql',
+                'description' => 'Music application like spotify! Helps to easily find, collect and listen your favorite music. Also the artists will be billed for each play of their composition depending plays count'
+            ],
+            [
                 'name' => 'ARTZLINK',
                 'id' => 'artzlink',
                 'url' => 'http://artzlink.com/',

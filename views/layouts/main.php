@@ -1,5 +1,6 @@
 <?php
 use yii\helpers\Html;
+use yii\web\View;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
@@ -16,7 +17,6 @@ AppAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-    <?= Html::csrfMetaTags() ?>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>Arsen Sargsyan</title>
     <?php $this->head() ?>
@@ -83,20 +83,6 @@ AppAsset::register($this);
                     <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'world_hostels'], ['class' => 'fancybox fancybox.ajax']) ?>
                 </div>
             </div>
-<!--            <div class="masonry-item" style="width: 30%;height: 150px">-->
-<!--                <img src="img/work/logo/backstock.png" alt="">-->
-<!---->
-<!--                <div class="overlay">-->
-<!--                    --><?//= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'backstock'], ['class' => 'fancybox fancybox.ajax']) ?>
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="masonry-item" style="width: 30%">-->
-<!--                <img src="img/work/logo/activelocation.png" alt="">-->
-<!---->
-<!--                <div class="overlay">-->
-<!--                    --><?//= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'activelocation'], ['class' => 'fancybox fancybox.ajax']) ?>
-<!--                </div>-->
-<!--            </div>-->
             <div class="masonry-item" style="width: 30%">
                 <img src="img/work/logo/xcinex.png" alt="">
 
@@ -111,13 +97,7 @@ AppAsset::register($this);
                     <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'threestay'], ['class' => 'fancybox fancybox.ajax']) ?>
                 </div>
             </div>
-<!--            <div class="masonry-item" style="width: 30%">-->
-<!--                <img src="img/work/logo/valettab.jpg" alt="">-->
-<!---->
-<!--                <div class="overlay">-->
-<!--                    --><?//= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'valettab'], ['class' => 'fancybox fancybox.ajax']) ?>
-<!--                </div>-->
-<!--            </div>-->
+
             <div class="masonry-item" style="width: 30%">
                 <img src="img/work/logo/familychangeservices.jpg" alt="">
 
@@ -125,13 +105,14 @@ AppAsset::register($this);
                     <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'familychangeservices'], ['class' => 'fancybox fancybox.ajax']) ?>
                 </div>
             </div>
-<!--            <div class="masonry-item" style="width: 30%">-->
-<!--                <img src="img/work/logo/artzlink.jpg" alt="">-->
-<!---->
-<!--                <div class="overlay">-->
-<!--                    --><?//= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'artzlink'], ['class' => 'fancybox fancybox.ajax']) ?>
-<!--                </div>-->
-<!--            </div>-->
+            <div class="masonry-item" style="width: 30%">
+                <img src="img/work/logo/trealer.jpg" alt="">
+
+                <div class="overlay">
+                    <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'trealer'], ['class' => 'fancybox fancybox.ajax']) ?>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -149,7 +130,7 @@ AppAsset::register($this);
         <div class="col-md-6" >
             <h1 class="wow fadeInRight animated" data-wow-delay="0.4s">Hi there, I am Arsen, a Web developer and designer...</h1>
             <br>
-            <p class="wow fadeInRight animated" data-wow-delay="0.4s">I'm 25, come from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I worked in 3 private companies for 4 years
+            <p class="wow fadeInRight animated" data-wow-delay="0.4s">I'm <?= round((time()-630099007)/60/60/24/365)?>, come from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I worked in 3 private companies for 4 years
                 and recent 1 year switched to freelancing.
                 <br>
                 I have created lots of public and private websites(some shown above) and I am always looking for something new to
