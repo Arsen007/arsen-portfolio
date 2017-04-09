@@ -750,7 +750,8 @@ img {
 }
 
 .work_popup .title {
-    border-bottom: 2px solid #c0c0c0
+    border-bottom: 2px solid #c0c0c0;
+    padding-bottom: 22px;
 }
 
 .work_popup .screen {
@@ -765,6 +766,14 @@ img {
     width: 37%;
     height: 100%;
     margin-left: 3%
+}
+
+.work_desecr{
+  color: #86b72b;
+}
+
+.my_role{
+  color: #336aa6;
 }
 
 @media screen and (max-width: 850px) {

@@ -65,7 +65,8 @@ class SiteController extends Controller
                 'screen' => 'world-hostels.jpg',
                 'technologies' => 'php,code igniter,jquery,javascript,mysql,soap',
                 'description' => 'The site helps to find hostels, hotels, apartments.. in worldwide and book them by any period.
-                Site supporting more then 40 localizations on different domains for each country.'
+                Site supporting more then 40 localizations on different domains for each country.',
+                'role' => 'Improved caching of search results using json file, localStorage, MySql, Redis. Also worked on fixing some dynamic features that using ajax and google map'
             ],
             [
                 'name' => 'Back Stock',
@@ -73,7 +74,9 @@ class SiteController extends Controller
                 'url' => 'http://thebackstock.com/',
                 'screen' => 'backstock.jpg',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
-                'description' => 'Product delivery management for shops and food deliverymans.'
+                'description' => 'Product delivery management for shops and food deliverymans.',
+                'role' => ''
+
             ],
             [
                 'name' => 'Active Location',
@@ -89,7 +92,8 @@ class SiteController extends Controller
                 'url' => 'https://www.xcinex.com/',
                 'screen' => 'xcinex.jpg',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
-                'description' => 'Cinema at home'
+                'description' => 'Cinema at home',
+                'role' => 'Worked on REST API for mobile app'
             ],
             [
                 'name' => 'Three Stay',
@@ -97,7 +101,9 @@ class SiteController extends Controller
                 'url' => 'http://www.threestay.com/',
                 'screen' => 'threestay.jpg',
                 'technologies' => 'magento,php,javascript,mysql',
-                'description' => 'Hotels, houses etc bocking for travelers'
+                'description' => 'Hotels, houses etc bocking for travelers',
+                'role' => 'Improved chat between client and renter'
+
             ],
             [
                 'name' => 'Family Change Services',
@@ -105,7 +111,9 @@ class SiteController extends Controller
                 'url' => 'http://www.familychangeservices.com/',
                 'screen' => 'familychangeservices.jpg',
                 'technologies' => 'php,javascript,angular,mysql',
-                'description' => 'Different services for family in various professions like jurisprudence, psychology, therapy, nutrition etc. Family members registering as users and providers registering as providers then users finding providers based on their needs.'
+                'description' => 'Different services for family in various professions like jurisprudence, psychology, therapy, nutrition etc. Family members registering as users and providers registering as providers then users finding providers based on their needs.',
+                'role' => 'Worked on provider search improvement using MYSQL procedures and improved front end pages using Angular'
+
             ],
             [
                 'name' => 'Trealer',
@@ -113,7 +121,8 @@ class SiteController extends Controller
                 'url' => 'https://trealer.com/',
                 'screen' => 'trealer.jpg',
                 'technologies' => 'laravel,php,javascript,angular,mysql',
-                'description' => 'Music application like spotify! Helps to easily find, collect and listen your favorite music. Also the artists will be billed for each play of their composition depending plays count'
+                'description' => 'Music application like spotify! Helps to easily find, collect and listen your favorite music. Also the artists will be billed for each play of their composition depending plays count',
+                'role' => 'Worked on integrating several 3rd party APIs (soundcloud, spotify, itunes, lastfm) for music search, payment calculations depending of song playbacks. Also worked on front-end pages, popups...'
             ],
             [
                 'name' => 'ARTZLINK',

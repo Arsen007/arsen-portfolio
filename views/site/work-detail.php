@@ -16,7 +16,9 @@
                          target="_blank"><?= $technology ?></a></span>
             <?php } ?>
         </div>
-        <h3>Description:</h3>
+        <h3 class="work_desecr">Description:</h3>
         <h4 style="max-width: 500px"><?= $description ?></h4>
+        <h3 class="my_role">My role:</h3>
+        <h4 style="max-width: 500px"><?= $role ?></h4>
     </div>
 </div>
