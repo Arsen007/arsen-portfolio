@@ -187,7 +187,7 @@ AppAsset::register($this);
       </div>
       <div class="skill-title">
           <h2><b>DEV-TOOLS<b></h2>
-          <h3>Linux / `GIT / SVN / Mercurial /GRUNT / Vagrant</h3>
+          <h3>Linux / GIT / SVN / Mercurial /GRUNT / Vagrant</h3>
       </div>
     </div>
     </div>
