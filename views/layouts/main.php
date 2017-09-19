@@ -131,7 +131,7 @@ AppAsset::register($this);
             <h1 class="wow fadeInRight animated" data-wow-delay="0.4s">Hi there, I am Arsen, a Web developer and designer...</h1>
             <br>
             <p class="wow fadeInRight animated" data-wow-delay="0.4s">I'm <?= round((time()-630099007)/60/60/24/365)?>, come from <a target="_blank" href="https://www.google.com/maps/place/Yerevan,+Armenia/@40.1533904,44.4885671,12z/data=!3m1!4b1!4m2!3m1!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a">Yerevan, Armenia</a>. I worked in 3 companies for 2 years
-                and recent 3 year switched to freelancing.
+                and recent 3 year switched to freelancing. So overall I have 5 years of experience in web development.
                 <br>
                 I have created lots of public and private websites(some shown above) and I am always looking for something new to
                 learn from. I use PHP as my primary programming language. You can see my skillset below.
