@@ -139,6 +139,15 @@ class SiteController extends Controller
                 'screen' => 'valettab.jpg',
                 'technologies' => 'yii framework,php,javascript,mysql,braintree api,google map api,bootstrap',
                 'description' => 'Admin panel and REST API for mobile application that provide easy way to pay for car parking without cash.'
+            ],
+            [
+                'name' => 'USA Craports',
+                'id' => 'usa-carports',
+                'url' => 'https://usacarports.com/',
+                'screen' => 'usa-carports.jpg',
+                'technologies' => 'php,laravel framework,Vue JS,three JS,mysql,paypal,bootstrap',
+                'description' => 'App to customize your own carport in 3D builder and order them.',
+                'role' => 'Have worked almost on all parts including: 3D builder, customizer, location based checkout, email marketing etc.'
             ]
         ];
         $currWork = [];

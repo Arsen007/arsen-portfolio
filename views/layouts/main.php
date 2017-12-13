@@ -113,6 +113,14 @@ AppAsset::register($this);
                 </div>
             </div>
 
+            <div class="masonry-item" style="width: 30%">
+                <img src="img/work/logo/usa-carports.jpg" alt="">
+
+                <div class="overlay">
+                    <?= Html::a('<i class="fa fa-search"></i>', ['/site/get-work-details', 'id' => 'usa-carports'], ['class' => 'fancybox fancybox.ajax']) ?>
+                </div>
+            </div>
+
 
         </div>
     </div>
