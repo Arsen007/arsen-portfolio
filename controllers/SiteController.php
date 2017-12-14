@@ -145,7 +145,7 @@ class SiteController extends Controller
                 'id' => 'usa-carports',
                 'url' => 'https://usacarports.com/',
                 'screen' => 'usa-carports.jpg',
-                'technologies' => 'php,laravel framework,Vue JS,three JS,mysql,paypal,bootstrap',
+                'technologies' => 'php,laravel framework,Vue JS,three JS,mysql,paypal,bootstrap,3D MAX',
                 'description' => 'App to customize your own carport in 3D builder and order them.',
                 'role' => 'Have worked almost on all parts including: 3D builder, customizer, location based checkout, email marketing etc.'
             ]
