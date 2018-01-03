@@ -169,7 +169,7 @@ AppAsset::register($this);
       </div>
         <div class="skill-title">
             <h2><b>BACK-END<b></h2>
-            <h3>PHP / MySQL / YII / YII2 / Laravel / CodeIgniter / Magento / CasperJS </h3>
+            <h3>PHP / MySQL / YII / YII2 / Laravel / Symphony 2.x / CodeIgniter / Magento / CasperJS / Puppeteer</h3>
         </div>
     </div>
     <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
