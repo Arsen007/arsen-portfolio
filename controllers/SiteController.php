@@ -89,7 +89,7 @@ class SiteController extends Controller
             [
                 'name' => 'XCINEX',
                 'id' => 'xcinex',
-                'url' => 'https://www.xcinex.com/',
+                'url' => 'http://www.xcinex.com/',
                 'screen' => 'xcinex.jpg',
                 'technologies' => 'yii2 framework,php,javascript,mysql,bootstrap',
                 'description' => 'Cinema at home',
