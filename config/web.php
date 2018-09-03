@@ -33,6 +33,7 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'rules' => [
+                'cv' => 'site/cv'
                 // your rules go here
             ],
             // ...

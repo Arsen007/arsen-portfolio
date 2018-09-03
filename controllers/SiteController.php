@@ -170,6 +170,17 @@ class SiteController extends Controller
         return $contactForm->sendMail();
     }
 
+    public function actionCv(){
+        header("Content-type:application/pdf");
+
+        // It will be called downloaded.pdf
+        header("Content-Disposition:attachment;filename='CV_Arsen_Sargsyan_2018.pdf'");
+
+        // The PDF source is in original.pdf
+        readfile(\Yii::getAlias('@webroot').'\files\CV_Arsen_2018.pdf');
+//        Yii::$app->response->xSendFile(\Yii::getAlias('@webroot').'\files\CV_Arsen_2018.pdf');
+    }
+
 //    public function actionLogin()
 //    {
 //        if (!\Yii::$app->user->isGuest) {
