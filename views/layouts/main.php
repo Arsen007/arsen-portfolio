@@ -182,7 +182,7 @@ AppAsset::register($this);
       </div>
         <div class="skill-title">
             <h2><b>FRONT-END<b></h2>
-            <h3>JavaScript / jQuery / Angular / HTML5 / CSS3 / Twitter Bootstrap/ Photoshop / Corel Draw</h3>
+            <h3>JavaScript / jQuery / VueJS / Angular / HTML5 / CSS3 / Twitter Bootstrap / Photoshop / Corel Draw</h3>
         </div>
     </div>
     <div class="col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay="0.3s">
@@ -195,7 +195,7 @@ AppAsset::register($this);
       </div>
       <div class="skill-title">
           <h2><b>DEV-TOOLS<b></h2>
-          <h3>Linux / GIT / SVN / Mercurial /GRUNT / Vagrant</h3>
+          <h3>Linux / GIT / SVN /GRUNT / Webpack / Vagrant / Docker</h3>
       </div>
     </div>
     </div>
@@ -248,7 +248,6 @@ AppAsset::register($this);
 
           <h2>Follow Me</h2>
             <ul class="social-icon">
-              <li><a href="https://www.facebook.com/arsenoo7" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://www.linkedin.com/in/arsensargsyan/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
